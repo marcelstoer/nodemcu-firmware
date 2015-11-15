@@ -12,6 +12,9 @@ cat user_modules.h
 # disable SSL
 sed -i.bak 's@#define CLIENT_SSL_ENABLE@//#define CLIENT_SSL_ENABLE@' user_config.h
 cat user_config.h
-)
+
+# change to "root" directory no matter where the script was started from
+cd "$TRAVIS_BUILD_DIR" || exit
 make clean
 make
+)
