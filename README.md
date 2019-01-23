@@ -63,7 +63,7 @@ A new tag is created every time `dev` is merged back to `master`. They are liste
 
 # Support
 
-See [https://nodemcu.readthedocs.io/en/master/en/support/](https://nodemcu.readthedocs.io/en/master/en/support/).
+See [https://nodemcu.readthedocs.io/en/master/en/support/](https://nodemcu.readthedocs.io/en/master/en/support/). Test
 
 # License
 
